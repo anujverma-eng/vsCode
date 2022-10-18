@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1><%= users.name%></h1>
+    <h1>Lang :</h1>
+    <ul>
+        <% users.lang.forEach((item)=>{%>
+            <li><%= item %></li>
+        <% })%>
+    </ul>
+</body>
+</html>

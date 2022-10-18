@@ -1,0 +1,15 @@
+{
+  "name": "anuj",
+  "version": "1.0.0",
+  "description": "This is the Testing for Node and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anuj Verma",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
+}

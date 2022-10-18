@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "name":"Buddy",
+        "animal":"Dog",
+        "breed":"Retriever"
+    },
+    {
+        "id":2,
+        "name":"Jack",
+        "animal":"Dog",
+        "breed":"German Shephard"
+    },
+    {
+        "id":3,
+        "name":"Meo",
+        "animal":"Cat",
+        "breed":"lolo"
+    },
+    {
+        "id":4,
+        "name":"Rui",
+        "animal":"Cat",
+        "breed":"ponu"
+    },
+    {
+        "id":5,
+        "name":"Dodo",
+        "animal":"Bird",
+        "breed":"parrot"
+    },
+    {
+        "id":6,
+        "name":"poko",
+        "animal":"Bird",
+        "breed":"supi"
+    },
+    {
+        "id":7,
+        "name":"craner",
+        "animal":"Reptile",
+        "breed":"dangus"
+    }
+]

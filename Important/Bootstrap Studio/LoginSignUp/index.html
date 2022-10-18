@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>LoginSignUp</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container-fluid"><a class="navbar-brand" href="#">Brand</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#">First Item</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Second Item</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Third Item</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row g-0 text-center d-flex">
+            <div class="col">
+                <form class="shadow px-xs-0 px-sm-3 px-md-3 px-lg-0 pb-3" style="background: #fffdfd;" method="get" title="Register With Us.">
+                    <h1 class="display-3 text-center text-secondary mb-3">Create Account</h1>
+                    <div>
+                        <div class="row justify-content-center align-items-center mb-2">
+                            <div class="col-11 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5 text-start py-sm-2 py-md-1 mb-3 mb-sm-0"><label class="form-label p-sm-2 p-md-1 d-none d-sm-flex" for="firstName"><strong>First Name</strong><span>*</span></label><input class="shadow-sm form-control p-sm-2 p-md-1" type="text" placeholder="Enter First Name" name="firstName" required="" minlength="2" maxlength="15" title="Enter Organization Name"></div>
+                            <div class="col-11 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5 text-start p-sm-2 p-md-1 mb-3 mb-sm-0"><label class="form-label p-sm-2 p-md-1 d-none d-sm-flex" for="lastName"><strong>Last Name</strong><span>*</span></label><input class="form-control p-sm-2 p-md-1" type="text" placeholder="Enter Last Name" name="lastName" required="" title="Organization Email" minlength="2" maxlength="15"></div>
+                        </div>
+                        <div class="row justify-content-center align-items-center mb-2 p-sm-2 p-md-1">
+                            <div class="col-11 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5 text-start p-sm-2 p-md-1 mb-3 mb-sm-0"><label class="form-label p-sm-2 p-md-1 d-none d-sm-flex" for="email" title="Contact Person"><strong>Email</strong><span>*</span></label><input class="form-control p-sm-2 p-md-1" type="email" placeholder="Enter Email" name="email" required="" minlength="4" maxlength="30" title="Contact Person Name" inputmode="email"></div>
+                            <div class="col-11 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5 text-start p-sm-2 p-md-1 mb-3 mb-sm-0"><label class="form-label p-sm-2 p-md-1 d-none d-sm-flex" for="phone"><strong>Phone</strong><br><span>*</span></label><input class="shadow-sm form-control p-sm-2 p-md-1" type="tel" placeholder="Enter Phone" name="contactPersonPhone" required="" minlength="6" maxlength="11" inputmode="tel" title="Contact Person Phone" pattern="^[0-9]*$"></div>
+                        </div>
+                        <div class="row justify-content-center align-items-center mb-2 p-sm-2 p-md-1">
+                            <div class="col-11 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5 text-start p-sm-2 p-md-1 mb-3 mb-sm-0"><label class="form-label p-sm-2 p-md-1 d-none d-sm-flex" for="password"><strong>Password</strong><br><span>*</span></label><input class="shadow-sm form-control p-sm-2 p-md-1" type="password" placeholder="Create Password" name="CompanyWebsite" required="" inputmode="url" title="Company Website" pattern="^[a-zA-Z0-9_.-]*$" minlength="8" maxlength="25"></div>
+                            <div class="col-11 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5 text-start p-sm-2 p-md-1 mb-3 mb-sm-0"><label class="form-label p-sm-2 p-md-1 d-none d-sm-flex" for="companyAddress"><strong>Confirm Password</strong><br><span>*</span></label><input class="shadow-sm form-control p-sm-2 p-md-1" type="password" placeholder="Confirm Password" name="companyAddress" required="" minlength="8" maxlength="25" pattern="^[a-zA-Z0-9_.-]*$"></div>
+                        </div>
+                        <div class="row justify-content-center align-items-center mb-2 p-sm-2 p-md-1">
+                            <div class="col-auto col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-10 text-start p-sm-2 p-md-1 mb-3 mb-sm-0"><label class="form-label p-sm-2 p-md-1 d-none d-sm-flex" for="profile"><strong>Profile</strong><br><span>*</span></label><input class="form-control p-sm-2 p-md-1" type="file" placeholder="Create Password" name="profile" required="" inputmode="url" title="Company Website" pattern="^[a-zA-Z0-9_.-]*$" minlength="8" maxlength="25" accept="image/*"></div>
+                        </div>
+                        <div class="row justify-content-center align-items-center mb-2 p-sm-2 p-md-1">
+                            <div class="col-11 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5 text-start p-sm-2 p-md-1 mb-3 mb-sm-0"><label class="form-label p-sm-2 p-md-1 d-none d-sm-flex" for="fathersName" title="Contact Person"><strong>Father's Name</strong><span>*</span></label><input class="shadow-sm form-control p-sm-2 p-md-1" type="text" placeholder="Enter Father's Name" name="fathersName" required="" minlength="3" maxlength="30" title="Contact Person Name" inputmode="email"></div>
+                            <div class="col-11 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5 text-start p-sm-2 p-md-1 mb-3 mb-sm-0"><label class="form-label p-sm-2 p-md-1 d-none d-sm-flex" for="address"><strong>Address</strong><br><span>*</span></label><input class="form-control p-sm-2 p-md-1" type="text" placeholder="Enter Address" name="address" required="" minlength="6" maxlength="80" inputmode="tel" title="Contact Person Phone"></div>
+                        </div>
+                        <div class="row justify-content-center align-items-center mb-2 p-sm-2 p-md-1">
+                            <div class="col-11 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5 text-start p-sm-2 p-md-1 mb-3 mb-sm-0"><label class="form-label p-sm-2 p-md-1 d-none d-sm-flex" for="classIn" title="Contact Person"><strong>Class</strong><span>*</span></label><select class="shadow-sm form-select" name="classIn">
+                                    <option value="undefined" selected="">BCA</option>
+                                    <option value="">BCOM</option>
+                                    <option value="">BBA</option>
+                                    <option value="">BSC IT</option>
+                                </select></div>
+                            <div class="col-11 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5 text-start p-sm-2 p-md-1 mb-3 mb-sm-0"><label class="form-label p-sm-2 p-md-1 d-none d-sm-flex" for="year" title="Contact Person"><strong>Year</strong><span>*</span></label><select class="shadow-sm form-select" name="year">
+                                    <option value="undefined" selected="">1st year</option>
+                                    <option value="">2nd year</option>
+                                    <option value="">3rd year</option>
+                                    <option value="">Graduate</option>
+                                </select></div>
+                        </div>
+                        <div class="row justify-content-center align-items-center mb-2 p-sm-2 p-md-1">
+                            <div class="col-11 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5 text-start p-sm-2 p-md-1 mb-3 mb-sm-0"><label class="form-label p-sm-2 p-md-1 d-none d-sm-flex" for="classRollNo" title="Contact Person"><strong>Class Roll No</strong><span>*</span></label><input class="shadow-sm form-control p-sm-2 p-md-1" type="number" placeholder="Class Roll No" name="classRollNo" required="" title="Contact Person Name" pattern="^[0-9]*$" minlength="3" maxlength="8"></div>
+                            <div class="col-11 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5 text-start p-sm-2 p-md-1 mb-3 mb-sm-0"><label class="form-label p-sm-2 p-md-1 d-none d-sm-flex" for="universityRollno"><strong>University Roll No</strong><br><span>*</span></label><input class="shadow-sm form-control p-sm-2 p-md-1" type="number" placeholder="Enter University Roll No" name="universityRollno" required="" minlength="9" maxlength="16" title="Contact Person Phone" pattern="^[0-9]*$"></div>
+                        </div>
+                        <div class="row justify-content-center align-items-center mb-2 p-sm-2 p-md-1">
+                            <div class="col-11 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5 text-start p-sm-2 p-md-1 mb-3 mb-sm-0"><label class="form-label p-sm-2 p-md-1 d-none d-sm-flex" for="class10" title="Contact Person"><strong>Class 10th</strong><span>*</span></label><input class="shadow-sm form-control p-sm-2 p-md-1" type="text" placeholder="92% or 9.2 CGPA" name="class10" required="" title="Contact Person Name" inputmode="email"></div>
+                            <div class="col-11 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5 text-start p-sm-2 p-md-1 mb-3 mb-sm-0"><label class="form-label p-sm-2 p-md-1 d-none d-sm-flex" for="class12"><strong>Class 12th</strong><br><span>*</span></label><input class="form-control p-sm-2 p-md-1" type="text" placeholder="92% or 9.2 CGPA" name="class12" required="" minlength="6" maxlength="80" inputmode="tel" title="Contact Person Phone"></div>
+                        </div>
+                        <div class="row justify-content-center align-items-center mb-2 p-sm-2 p-md-1">
+                            <div class="col-11 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5 text-start p-sm-2 p-md-1 mb-3 mb-sm-0"><label class="form-label p-sm-2 p-md-1 d-none d-sm-flex" for="graduation" title="Contact Person"><strong>Graduation (if in 2nd Sem or above)</strong></label><input class="shadow-sm form-control p-sm-2 p-md-1" type="text" placeholder="92% or 9.2 CGPA or NONE (if result not out))" name="graduation" title="Contact Person Name" inputmode="email"></div>
+                            <div class="col-11 col-sm-12 col-md-6 col-lg-5 col-xl-5 col-xxl-5 text-start p-sm-2 p-md-1 mb-3 mb-sm-0"><label class="form-label p-sm-2 p-md-1 d-none d-sm-flex" for="projects"><strong>Projects (if any)</strong><br></label><input class="form-control p-sm-2 p-md-1" type="text" placeholder="Projects If any" name="projects" inputmode="tel" title="Contact Person Phone"></div>
+                        </div>
+                        <div class="row justify-content-center align-items-center mb-2 p-sm-2 p-md-1">
+                            <div class="col-11 col-sm-12 col-lg-10 col-xl-10 col-xxl-10 text-start p-sm-2 p-md-1 mb-3 mb-sm-0"><label class="form-label p-sm-2 p-md-1 d-none d-sm-flex" for="about"><strong>About</strong><br><span>*</span></label><textarea class="shadow-sm form-control p-sm-2 p-md-1" placeholder="Tell us About yourself in 80 To 350 Words" name="about" required="" minlength="80" maxlength="500"></textarea></div>
+                        </div>
+                        <div class="row justify-content-center align-items-center mb-2 p-sm-2 p-md-1">
+                            <div class="col-11 col-sm-12 col-lg-10 col-xl-10 col-xxl-10 text-start p-sm-2 p-md-1 mb-3 mb-sm-0"><label class="form-label p-sm-2 p-md-1 d-none d-sm-flex" for="objective"><strong>Objective</strong><br><span>*</span></label><textarea class="shadow-sm form-control p-sm-2 p-md-1" placeholder="Tell us about Objective" name="objective" required="" minlength="80" maxlength="500"></textarea></div>
+                        </div>
+                        <div class="row justify-content-center align-items-center mb-2 p-sm-2 p-md-1">
+                            <div class="col-11 col-sm-12 col-lg-10 col-xl-10 col-xxl-10 text-start p-sm-2 p-md-1 mb-3 mb-sm-0"><label class="form-label p-sm-2 p-md-1 d-none d-sm-flex" for="experience"><strong>Experience (if any)</strong><br></label><textarea class="shadow-sm form-control p-sm-2 p-md-1" placeholder="Tell us about Experience" name="experience"></textarea></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="text-center shadow-sm" style="padding: 8px;">
+                            <div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">I Agree to the&nbsp;<a href="#">terms &amp; Conditions</a></label></div>
+                        </div><button class="btn btn-outline-success text-uppercase fw-bold text-center shadow-sm" type="submit" style="width: 227.675px;border-radius: 20px;margin-top: 15px;margin-right: 0px;margin-bottom: 10px;">Create account</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

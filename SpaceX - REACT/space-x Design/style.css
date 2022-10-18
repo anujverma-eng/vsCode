@@ -1,0 +1,147 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*::before,::after{
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: var(--sans);
+    background-color: rgb(218, 218, 218);
+}
+h1,h2,h3{
+    margin: 0;
+}
+/* a{
+    color: var(--magenta);
+}
+a:hover,nav [class*=fa-]:hover{
+    color: var(--hotmag);
+    text-decoration: none;
+} */
+
+img{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(234, 232, 232);
+}
+
+.container{
+    padding: 12px;
+}
+
+.flex{
+    display: flex;
+}
+.row-wrap{
+    flex-flow: row wrap;
+}
+.align-center{
+    align-items: center;
+}
+.justify-content{
+    justify-content: center;
+}
+
+.w-30{
+    width: 20%;
+}
+.w-70{
+    width: 80%;
+}
+
+.w-fixed{
+    width: 100%;
+}
+
+.gap{
+    gap: 24px;
+}
+
+button{
+    background-color: rgba(155, 239, 155, 0.738);
+    padding: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 4.8rem;
+}
+button:hover {
+    background-color: rgba(86, 244, 86, 0.738);
+    transform: rotate(360deg);
+    transform: scale(1.01);
+  }
+
+.mb-5{
+    margin-bottom: 8px;
+}
+
+.filter{
+    text-align: center;
+    background-color: white;
+    padding: 12px;
+}
+
+.f-5{
+    font-size: 1.2rem;
+}
+
+.b-radius{
+    border-radius: 5px;
+}
+
+.card{
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    padding: 12px;
+}
+
+
+
+.height{
+    height: 50%;
+}
+
+@media (max-width:840px) {
+    .w-30{
+        width: 40%;
+    }
+    .w-70{
+        width: 60%;
+    }
+    
+
+}
+@media (max-width:740px) {
+    .gap{
+        gap: 12px;
+    }
+    .card{
+        width: 250px;
+    }
+}
+@media (max-width:462px) {
+    .w-30{
+        width: 80%;
+        margin-bottom: 8px;
+    }
+    .w-70{
+        width: 100%;
+    }
+    .sectionDiv{
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .container{
+        padding: 5px;
+    }
+}
